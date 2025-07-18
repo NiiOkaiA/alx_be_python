@@ -1,8 +1,8 @@
-task=input("Enter your task:")
+Task=input("Enter your task:")
 
-priority=input("Priority (high/medium/low):")
+Priority=input("Priority (high/medium/low):")
 
-time=input("Is it time-bound?  (yes/no:)")
+Time_Bound=input("Is it time-bound?  (yes/no:)")
 
 
 match time:

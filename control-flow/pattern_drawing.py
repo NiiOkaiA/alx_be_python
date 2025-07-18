@@ -1,4 +1,4 @@
-square=int(input("enter size of square pattern:"))
+square=int(input("Enter the size of the pattern:"))
 number=square
 while square >0:
     for a in range(number):

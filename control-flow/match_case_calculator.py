@@ -3,6 +3,24 @@ num2=int(input("Enter the second number:"))
 
 operation=input("Choose the operation (+, -, *, /):")
 
+
+
+match operation:
+        case "+":
+             result=num1+num2
+             print ("The result is",result)
+        case "-":
+             result=num1-num2
+             print ("The result is",result)
+        case "*":
+             result=num1*num2
+             print ("The result is",result)
+        case "/":
+             result=num1/num2
+             print ("The result is",result)
+
+
+'''
 if operation =="+":
     result= num1+num2
 elif operation=="-":
@@ -19,3 +37,5 @@ else:
     exit()
 
 print ("The result is",result)
+'''
+ 

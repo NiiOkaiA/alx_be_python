@@ -9,11 +9,13 @@ def perform_operation(num1, num2, operation):
         return num1*num2
 
     elif operation=="divide":
-        if num2! = 0:
-            return num1/num2
+        if num2 == 0:
+             print("cannot divide by 0")
+             exit()
+           
         else:
-            print("cannot divide by 0")
-            exit()
+             return num1/num2
+           
         
 
 

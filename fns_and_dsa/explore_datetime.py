@@ -17,7 +17,7 @@ now=display_current_datetime()
 
 #  nonlocal current_date
 def calculate_future_date():    
-  future_date =now+timedelta(days=int(input("Enter the number of days to add to the current date")))  
+  future_date =now+timedelta(days=int(input("Enter the number of days to add to the current date:)))  
   print(future_date.strftime( "%Y-%m-%d %H:%M:%S" ) )
 
 

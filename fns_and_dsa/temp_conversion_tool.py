@@ -15,6 +15,8 @@ def celsius_to_farenheit(celcius):
 
 number=int(input("Enter the temperature to convert:"))
 
+if  type(number) in (int,float):
+    print("Invalid temperature. Please enter a numeric value.")
 celfar=input("Is this temperature in Celsius or Fahrenheit? (C/F):")
 
 if celfar=='C':

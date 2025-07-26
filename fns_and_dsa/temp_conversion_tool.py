@@ -13,9 +13,9 @@ def celsius_to_farenheit(celcius):
     print(f"{celcius} celsius is {fahrenheit} fahrenheit")
 
 
-number=int(input("Enter the temprature to convert:"))
+number=int(input("Enter the temperature to convert:"))
 
-celfar=input("Is this temprature in Celsius or Fahrenheit (C/F):")
+celfar=input("Is this temperature in Celsius or Fahrenheit (C/F):")
 
 if celfar=='C':
     celsius_to_fahrenheit(number)

@@ -11,13 +11,13 @@ class BankAccount:
         self.withdraw=amount
 
         if self.withdraw<self.account_balance:
-            self.account_balance-=self.amount
+            self.account_balance-=self.withdraw
 
       #  else:
             
 
     def display_balance(self):
-        print( f"Current Balance: $[{self.account_balance}]")
+        print( f"Current Balance: ${self.account_balance}")
 
 
 

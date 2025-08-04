@@ -5,18 +5,20 @@ class BankAccount:
     def deposit(self,amount):
         self.deposit=amount
         self.account_balance+=self.deposit
+        return self.account_balance
 
 
     def withdraw (self,amount):
         self.withdraw=amount
 
-        if self.withdraw<self.account_balance:
+        if self.withdraw<=self.account_balance:
             self.account_balance-=self.withdraw
+            return True
       #  else:
             
 
     def display_balance(self):
-        print( f"Current Balance: ${self.account_balance}")
+        print( f"Current Balance: ${float(self.account_balance)}")
 
 
 

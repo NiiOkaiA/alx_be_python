@@ -17,7 +17,7 @@ def safe_divide(numerator,denominator):
     
         
     except ZeroDivisionError:
-        return f"It's not possible to divide by 0"
+        return f"Error: Cannot divide by zero."
 
     
     

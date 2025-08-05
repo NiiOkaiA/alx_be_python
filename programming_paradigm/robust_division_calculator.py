@@ -1,0 +1,24 @@
+
+
+
+
+#ValueError - inappropriate value passed to a function
+#TypeError  - when an operation is tried with incompatible data types
+
+def safe_divide(numerator,denominator):
+    try:
+       num= float (numerator)
+       den= float (denominator)
+
+       result=num/den
+       return f"The result of the division is  {float(result)}"
+
+    except ValueError:
+        return f"You attempted to pass an non-numeric value to the function"
+    
+        
+    except ZeroDivisionError:
+        return f"It's not possible to divide by 0"
+
+    
+    

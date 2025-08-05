@@ -13,7 +13,7 @@ def safe_divide(numerator,denominator):
        return f"The result of the division is  {float(result)}"
 
     except ValueError:
-        return f"You attempted to pass an non-numeric value to the function"
+        return f"Error: Please enter numeric values only."
     
         
     except ZeroDivisionError:

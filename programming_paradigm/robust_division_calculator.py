@@ -1,14 +1,13 @@
 
 
 
-
 #ValueError - inappropriate value passed to a function
 #TypeError  - when an operation is tried with incompatible data types
 
 def safe_divide(numerator,denominator):
     try:
-       num= float (numerator)
-       den= float (denominator)
+       num= float(numerator)
+       den= float(denominator)
 
        result=num/den
        return f"The result of the division is  {float(result)}"

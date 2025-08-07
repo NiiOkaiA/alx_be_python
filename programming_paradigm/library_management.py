@@ -3,6 +3,7 @@ class Book:
         self.title=title
         self.author=author
         self.__is_checked_out="no"
+        return boo
 
 
 
@@ -26,6 +27,7 @@ class Library(Book):
             if book.title==title:
                 self.__checked_out.append(book)
                 self.__book.remove(book)
+                True
         
        
 

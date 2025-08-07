@@ -14,7 +14,7 @@ class Library(Book):
         bk=Book(self.title,self.author)
         self.__book=[Book(self.title,self.author)]
         self.__checked_out=[Book(self.title,self.author)]
-       
+      # self._books = [] 
 
 #    def setup(self):
 # #        self.bk=book()

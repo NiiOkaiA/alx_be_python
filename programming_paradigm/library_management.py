@@ -17,7 +17,7 @@ class Library(Book):
        
 
 #    def setup(self):
-#        self.bk=book()
+# #        self.bk=book()
         
     def add_book(self,bk):
         self.__book.append(bk)

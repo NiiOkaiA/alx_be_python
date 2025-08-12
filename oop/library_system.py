@@ -34,8 +34,11 @@ class Library:
 
 
       def list_books(self):
-          for self.book in self.book_list:
-              print(f"{self.book}")
+          print(f"Book: {self.book_list[0]} EBook: {self.book_list[1]} PrintBook: {self.book_list[2]}")
+
+
+         #for self.book in self.book_list:
+             # print(f"")
 
     
 
